@@ -75,7 +75,7 @@ header li
 {
   float:left;
   display:inline;
-  padding:0 15px;
+  padding:0 10px;
 }
 
 header a
@@ -192,7 +192,7 @@ footer
   {
     float:none;
     text-align:center;
-    width:80%;
+    width:100%;
   }
 
   header
