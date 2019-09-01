@@ -206,7 +206,7 @@ footer
     white-space:nowrap;
   }
 
-  header nav li
+  header nav ul li
   {
     display:inline;
   }
