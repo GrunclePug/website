@@ -60,7 +60,7 @@ header li
 {
   float:left;
   display:inline;
-  padding:0 20px 0 20px;
+  padding:0 15px 0 15px;
 }
 
 header #logo
@@ -142,7 +142,7 @@ header a:hover
 {
   float:left;
   text-align:center;
-  width:25%;
+  width:30%;
   padding:10px;
 }
 
@@ -190,7 +190,7 @@ footer
   {
     float:none;
     text-align:center;
-    width:90%;
+    width:100%;
   }
 
   header
