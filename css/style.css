@@ -193,12 +193,22 @@ footer
     float:none;
     text-align:center;
     width:100%;
-    overflow:hidden;
   }
 
   header
   {
     padding-bottom:20px;
+  }
+
+  header nav ul
+  {
+    overflow-x:hidden;
+    white-space:nowrap;
+  }
+
+  header nav li
+  {
+    display:inline;
   }
 
   #showcase h1
