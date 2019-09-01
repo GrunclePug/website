@@ -30,12 +30,19 @@ ul
   color:#ffffff;
 }
 
+.button_1:hover
+{
+  color:#E4E4E4;
+  background:#FF8B32;
+  transition-duration:0.25s;
+}
+
 .dark
 {
   padding:15px;
   background:#292C35;
   color:#ffffff;
-  margin:10px 10% 10px 10%;
+  margin:10px 10%;
 }
 
 /* Header */
@@ -46,21 +53,6 @@ header
   padding-top:30px;
   min-height:70px;
   border-bottom:#FF7633 3px solid;
-}
-
-header a
-{
-  color:#ffffff;
-  text-decoration:none;
-  text-transform:uppercase;
-  font-size:16px;
-}
-
-header li
-{
-  float:left;
-  display:inline;
-  padding:0 15px 0 15px;
 }
 
 header #logo
@@ -79,6 +71,21 @@ header nav
   margin-top:10px;
 }
 
+header li
+{
+  float:left;
+  display:inline;
+  padding:0 15px;
+}
+
+header a
+{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:1.1rem;
+}
+
 header .highlight, header .current a
 {
   color:#FF7633;
@@ -87,7 +94,7 @@ header .highlight, header .current a
 
 header a:hover
 {
-  color:#cccccc;
+  color:#E4E4E4;
   font-weight:bold;
 }
 
@@ -104,7 +111,7 @@ header a:hover
 #showcase h1
 {
   margin-top:100px;
-  font-size:55px;
+  font-size:3.7rem;
   margin-bottom:10px;
 }
 
@@ -143,7 +150,7 @@ header a:hover
   float:left;
   text-align:center;
   width:30%;
-  padding:15px;
+  padding:1.6%;
 }
 
 #boxes .box img
@@ -155,17 +162,12 @@ header a:hover
 {
   text-align:center;
   width:98%;
-  padding:10px;
+  padding:1%;
 }
 
 #boxes article img
 {
   width:200px;
-}
-
-#boxes .highlight
-{
-  font-weight:bold;
 }
 
 /* Footer */
