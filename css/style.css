@@ -136,7 +136,7 @@ header a:hover
 #discord button
 {
   float:right;
-  margin-top:15px;
+  margin-top:20px;
 }
 
 /* Boxes */
@@ -168,6 +168,26 @@ header a:hover
 #boxes article img
 {
   width:200px;
+}
+
+/* About */
+#about .box
+{
+  float:left;
+  text-align:center;
+  width:70%;
+  padding:15%;
+}
+
+#about .box p
+{
+  max-width:800px;
+}
+
+#about .box img
+{
+  width:70%;
+  margin:20px, 15%;
 }
 
 /* Footer */
